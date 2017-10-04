@@ -1,0 +1,23 @@
+Recommendation
+   	step1 - bin/hadoop jar /home/aniket/Desktop/final-Input/Reco.jar reco.Reco /final/sentiment /final/part1
+	step2 - bin/hadoop jar /home/aniket/Desktop/final-Input/UserRatedCount.jar userratedcount.UserRatedCount /final/part1 /final/part2
+
+Sentiment Prediction
+bin/hadoop jar /home/aniket/Desktop/final-Input/Predict.jar predict.Predict /final/sentiment /final/check /final/positivewords /final/negativewords
+
+Reduce Inner Join
+bin/hadoop jar /home/aniket/Desktop/final-Input/Join.jar /final/join1 /final/join2 /final/join /final/agg /final/sort
+
+Summarization pattern
+bin/hadoop jar /home/aniket/Desktop/final-Input/Sum.jar sum.Sum /final/partition /final/check
+
+Partitioning pattern
+bin/hadoop jar /home/aniket/Desktop/final-Input/Partition.jar partition.Partition /final/partition /final/check
+
+Simple Random Sampling
+bin/hadoop jar /home/aniket/Desktop/final-Input/Filter.jar filter.Filter /final/filter /final/check
+
+
+
+
+
